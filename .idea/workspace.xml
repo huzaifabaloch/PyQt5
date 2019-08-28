@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99c4b7e5-c24b-48e2-982c-8ef6f35b0c57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/retieve_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search_bar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -16,34 +16,35 @@
     <session id="1740590980">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.129" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.35" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ico" value="1" />
-          <entry key="py" value="17" />
+          <entry key="py" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
-          <entry key="Python" value="17" />
+          <entry key="Python" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="19961" />
+          <entry key="py" value="21683" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="19961" />
+          <entry key="Python" value="21683" />
         </counts>
       </usages-collector>
     </session>
@@ -66,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/lineEdit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
+            <state relative-caret-position="820">
               <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
               <folding>
                 <element signature="e#0#120#0" expanded="true" />
@@ -104,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/progressbar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
+            <state relative-caret-position="340">
               <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding>
                 <element signature="e#0#80#0" expanded="true" />
@@ -116,14 +117,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/retieve_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+            <state relative-caret-position="1000">
+              <caret line="50" column="33" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
               <folding>
                 <element signature="e#0#120#0" expanded="true" />
                 <marker date="1567021223845" expanded="true" signature="1013:1019" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/search_bar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-108">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="e#0#85#0" expanded="true" />
+                <marker date="1567024497744" expanded="true" signature="186:191" ph="..." />
+                <marker date="1567024497744" expanded="true" signature="520:926" ph="..." />
               </folding>
             </state>
           </provider>
@@ -133,7 +148,7 @@
         <entry file="file://$PROJECT_DIR$/venv/layout_management.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#0#112#0" expanded="true" />
                 <marker date="1566404265074" expanded="true" signature="226:231" ph="..." />
@@ -176,6 +191,7 @@
         <option value="$PROJECT_DIR$/database.py" />
         <option value="$PROJECT_DIR$/progressbar.py" />
         <option value="$PROJECT_DIR$/retieve_data.py" />
+        <option value="$PROJECT_DIR$/search_bar.py" />
       </list>
     </option>
   </component>
@@ -226,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.retieve_data">
+  <component name="RunManager" selected="Python.search_bar">
     <configuration name="database" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PYQT5" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -311,7 +327,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="search_bar" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PYQT5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -319,11 +335,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/search_bar.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,19 +349,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.layout" />
       <item itemvalue="Python.database" />
       <item itemvalue="Python.progressbar" />
       <item itemvalue="Python.retieve_data" />
+      <item itemvalue="Python.search_bar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.search_bar" />
         <item itemvalue="Python.retieve_data" />
         <item itemvalue="Python.progressbar" />
         <item itemvalue="Python.database" />
         <item itemvalue="Python.layout" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -410,6 +426,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lineEdit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#120#0" expanded="true" />
+            <marker date="1566418672604" expanded="true" signature="209:214" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/layout.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -431,10 +458,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/progressbar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#80#0" expanded="true" />
+            <marker date="1566922907870" expanded="true" signature="140:141" ph="..." />
+            <marker date="1566922907870" expanded="true" signature="165:170" ph="..." />
+            <marker date="1566922907870" expanded="true" signature="653:659" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/layout_management.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#112#0" expanded="true" />
             <marker date="1566404265074" expanded="true" signature="226:231" ph="..." />
@@ -449,37 +489,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lineEdit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#120#0" expanded="true" />
-            <marker date="1566418672604" expanded="true" signature="209:214" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/progressbar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#80#0" expanded="true" />
-            <marker date="1566922907870" expanded="true" signature="140:141" ph="..." />
-            <marker date="1566922907870" expanded="true" signature="165:170" ph="..." />
-            <marker date="1566922907870" expanded="true" signature="653:659" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/retieve_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+        <state relative-caret-position="1000">
+          <caret line="50" column="33" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
           <folding>
             <element signature="e#0#120#0" expanded="true" />
             <marker date="1567021223845" expanded="true" signature="1013:1019" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_bar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#0#85#0" expanded="true" />
+            <marker date="1567024497744" expanded="true" signature="186:191" ph="..." />
+            <marker date="1567024497744" expanded="true" signature="520:926" ph="..." />
           </folding>
         </state>
       </provider>
