@@ -1,10 +1,10 @@
-from PyQt5.QtWidgets import QMainWindow, QApplication, QLineEdit, QVBoxLayout, QCompleter, QPushButton
+from PyQt5.QtWidgets import QWidget, QMainWindow, QDialog, QApplication, QLineEdit, QVBoxLayout, QCompleter, QPushButton
 from PyQt5.QtGui import QIcon
 import sys
 import mysql.connector as sql
+from secondTable import Second
 
-
-class Root(QMainWindow):
+class Root(QWidget):
     def __init__(self):
         super().__init__()
 
@@ -37,7 +37,6 @@ class Root(QMainWindow):
         vbox.addWidget(btn)
 
         self.setLayout(vbox)
-
         self.show()
 
     def product_names(self):
@@ -71,11 +70,12 @@ class Root(QMainWindow):
         )
         cur = conn.cursor()
 
-        cur.execute('SELECT name_of_game, price FROM ps4_tbl WHERE name_of_game = %s', (game_name,))
+        cur.execute('SELECT * FROM ps4_tbl WHERE name_of_game = %s', (game_name,))
 
         result = cur.fetchone()
         if result is not None:
-            print(result)
+            self.sec = Second([result])
+            self.sec.show()
         else:
             print('No such product at the moment')
 
